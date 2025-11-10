@@ -12,11 +12,11 @@ const Section1 = () => {
             <div className="w-1/2">
               <p className="outfit-normal text-[#969696] text-2xl leading-8">
                 Hey hello,
-                <br></br>You’ve just scanned our QR code or deliberately visited
+                </p><p className="outfit-normal text-[#969696] text-2xl leading-8">You’ve just scanned our QR code or deliberately visited
                 our website and for that we sincerely thank you! Crypto can feel
                 loud and unfamiliar. Clicks and Trades is our answer.
               </p>
-              <button className="px-8 py-5 text-[#14ddb6] border-2 text-lg outfit-normal border-[#14ddb6] rounded-2xl hover:bg-[#14ddb6] hover:text-white cursor-pointer leading-6">
+              <button className="px-8 py-5 text-[#14ddb6] border-2 text-lg outfit-normal border-[#14ddb6] rounded-2xl hover:bg-[#14ddb6] hover:text-white cursor-pointer leading-6 mt-9">
                 <a href="">Read more</a>
               </button>
             </div>
