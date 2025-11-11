@@ -13,8 +13,8 @@ const Section3 = () => {
             crypto journey simple for you.
           </p>
         </div>
-        <div className="flex flex-col gap-y-[81px] items-center">
-          <div className="mt-21 flex gap-x-8">
+        <div className="mt-21 flex flex-col gap-y-[81px] items-center">
+          <div className="flex gap-x-8">
             <div className="flex flex-col gap-y-6 max-w-[426px] flex-1/3">
               <div className="bg-[#F5F6F9] rounded-2xl pt-[30px] px-1">
                 <img
