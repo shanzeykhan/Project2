@@ -3,49 +3,44 @@ import React from "react";
 const Section2 = () => {
   return (
     <div>
-      <div className="w-full px-[156px] py-[100px]">
-        
-          <h2 className="outfit-normal text-7xl text-black text-center">
+      <div className="w-full px-[156px] py-[130px]">
+        <div className="flex flex-col justify-center items-center 2xl:scale-120">
+          <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
             What is Clicks<span className="noto-sans-regular">&</span>Trades?
           </h2>
-          <div className="bg-[#F5F6F9] h-[532px] w-full mt-9 rounded-4xl py-4 pr-4 pl-13 flex items-center justify-center gap-10">
-            <div className="w-[47%]">
-              <p className="outfit-normal text-[#969696] text-2xl leading-8">
-                Hey hello,
+          <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3 w-[670px] text-center">
+            Clicks and Trades is an upcoming crypto information and learning
+            platform that replaces noise with structure and turns confusion into
+            clear steps.
+          </p>
+        </div>
+        <div className="bg-[#F5F6F9] h-[532px] 2xl:h-[600px] w-full mt-18 rounded-4xl ">
+          <div className="flex items-center justify-center gap-10 py-4 pr-[7px] pl-13">
+            <div className="w-[50%]">
+              <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8">
+                What you Get:
+              </h3>
+              <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 mt-3 2xl:mt-6">
+                <ul className="list-inside">
+                  <li>• Education that builds understanding step by step</li>
+                  <li>• A curated community where substance wins over hype</li>
+                  <li>
+                    • Journaling and review tools to spot patterns and build
+                    discipline
+                  </li>
+                  <li>
+                    • Smart decision-making frameworks that keep you focused
+                  </li>
+                </ul>
               </p>
-              <p className="outfit-normal text-[#969696] text-2xl leading-8 mt-8">
-                You’ve just scanned our QR code or deliberately visited our
-                website and for that we sincerely thank you! Crypto can feel
-                loud and unfamiliar. Clicks and Trades is our answer.
-              </p>
-              <button className="px-8 py-5 text-[#00D5BE] border-2 text-lg outfit-normal border-[#00D5BE] rounded-2xl hover:bg-[#00D5BE] hover:text-white cursor-pointer leading-6 mt-10">
-                <a href="">Read more</a>
-              </button>
             </div>
-            <div className="h-[500px] w-[53%] rounded-2xl bg-[#F2F3F7] bg-[url(./Groupbg.png)] bg-cover flex justify-evenly items-center">
-              <div className="w-58 h-62 bg-white rounded-xl p-3.5 flex flex-col items-center justify-center">
-                <div className="bg-white rounded-xl py-2.5 px-[22px]">
-                  <img src="./Nicole.png" alt="Nicole_img" />
-                </div>
-                <h3 className="outfit-medium text-lg text-[#055747] tracking-widest mt-3">
-                  Nicole De Schuyter
-                </h3>
-                <p className="outfit-medium text-black/49 text-base">
-                  CEO & Co-Founder
-                </p>
-              </div>
-              <div className="w-58 h-62 bg-white rounded-xl p-3.5 flex flex-col items-center justify-center">
-                <div className="bg-white rounded-xl py-2.5 px-[22px]">
-                  <img src="./gerry.png" alt="gerry_img" />
-                </div>
-                <h3 className="outfit-medium text-lg text-[#055747] tracking-widest mt-3">
-                  Gerry Janssens
-                </h3>
-                <p className="outfit-medium text-black/49 text-base">Founder</p>
-              </div>
+            <div className="h-[500px] 2xl:h-[540px] w-[50%] rounded-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
+            <div className="w-5/6 h-5/6 bg-[url(./Dashboard.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl">
+            </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   );
 };

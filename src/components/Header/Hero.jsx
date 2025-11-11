@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
       <div className="w-full absolute top-0">
         <div className="w-220 text-center absolute top-[194px] left-[331px] 2xl:left-1/5 2xl:top-[350px] 2xl:w-[50%]">
-          <h1 className="font-bold text-5xl lora-bold mb-6 leading-16 2xl:leading-32 2xl:text-7xl">
+          <h1 className="font-bold text-5xl lora-bold mb-6 leading-16 3xl:leading-32 3xl:text-7xl">
             Clicks&Trades offers education, community, journaling, and general
             market insights
           </h1>

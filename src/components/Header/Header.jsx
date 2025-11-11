@@ -7,14 +7,14 @@ const Header = () => {
         <img src="./Vector 19.png" alt="" className="absolute top-0 w-full" />
         <img src="./Vector 18.png" alt="" className="absolute top-0 w-full" />
         <img src="./Framehero.png" alt="" className="px-13 w-full opacity-80" />
-        <div className="w-full px-13 py-5 border-b border-b-white/10 flex justify-between items-center absolute top-0 2xl:px-16 2xl:py-8 bg-white/5">
+        <div className="w-full px-13 py-5 border-b border-b-white/10 flex justify-between items-center absolute top-0 3xl:px-16 3xl:py-8 bg-white/5">
           <img
             src="./logo.png"
             alt="Logo"
-            className="scale-105 2xl:scale-120"
+            className="scale-105 3xl:scale-120"
           />
-          <div className="flex justify-between items-center gap-4 2xl:gap-16">
-            <div className="navbar flex items-center gap-8 text-white 2xl:text-xl text-[14px] 2xl:gap-16 poppins-regular">
+          <div className="flex justify-between items-center gap-4 3xl:gap-16">
+            <div className="navbar flex items-center gap-8 text-white 3xl:text-xl text-[14px] 3xl:gap-16 poppins-regular">
               <a
                 href="#home"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
@@ -61,7 +61,7 @@ const Header = () => {
                 <option className="text-black" value="urdu">Urdu</option>
               </select>
             </div>
-            <button className="py-4 2xl:px-5 px-[13px] rounded-[10px] bg-[#14ddb6] text-black font-bold 2xl:text-xl border-2 border-[#14ddb6] hover:border-amber-500 hover:bg-white hover:text-amber-400 transition-colors delay-75 duration-75 ">
+            <button className="py-4 3xl:px-5 px-[13px] rounded-[10px] bg-[#14ddb6] text-black font-bold 3xl:text-xl border-2 border-[#14ddb6] hover:border-amber-500 hover:bg-white hover:text-amber-400 transition-colors delay-75 duration-75 ">
               <a href="#waitlist">Join our Waitlist</a>{" "}
             </button>
           </div>
