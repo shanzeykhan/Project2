@@ -57,8 +57,8 @@ const Header = () => {
                 className="focus:outline-none poppins-bold"
                 // style={"-webkit-appearance:none; -moz-appearance:none; text-indent:1px; text-overflow: "'; "}
               >
-                <option value="english">English</option>
-                <option value="urdu">Urdu</option>
+                <option className="text-black" value="english">English</option>
+                <option className="text-black" value="urdu">Urdu</option>
               </select>
             </div>
             <button className="py-4 2xl:px-5 px-[13px] rounded-[10px] bg-[#14ddb6] text-black font-bold 2xl:text-xl border-2 border-[#14ddb6] hover:border-amber-500 hover:bg-white hover:text-amber-400 transition-colors delay-75 duration-75 ">
