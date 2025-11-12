@@ -5,7 +5,8 @@ const Section7 = () => {
     <div>
       <div className="w-full px-[156px] py-[187px]">
         <h2 className="outfit-normal text-5xl xl:text-7xl text-black text-center leading-18 tracking-tighter max-md:scale-85 2xl:scale-120">
-          Why Clicks&Trades platform should be in your tool stack
+          Why Clicks<span className="noto-sans-regular">&</span>
+          Trades platform should be in your tool stack
         </h2>
 
         <div className="mt-21 flex gap-8">
