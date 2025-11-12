@@ -8,7 +8,7 @@ const Section4 = () => {
           For Whom is Clicks<span className="noto-sans-regular">&</span>Trades?
         </h2>
 
-        <div className="mt-[72px] flex flex-wrap justify-center gap-y-18">
+        <div className="mt-[72px] flex flex-wrap justify-center gap-y-18 2xl:w-[1128px] 2xl:mx-auto">
           <div className="w-[287px] h-56 flex flex-col items-center">
                 <div className="w-12 h-12 p-3 rounded-lg shadow-inner shadow-gray-100">
               <img src="./Button1.png" alt="" className="" />

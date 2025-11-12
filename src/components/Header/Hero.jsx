@@ -3,9 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="w-full absolute top-0">
-        <div className="w-220 text-center absolute top-[194px] left-[331px] 2xl:left-1/5 2xl:top-[350px] 2xl:w-[50%]">
-          <h1 className="font-bold text-5xl lora-bold mb-6 leading-16 3xl:leading-32 3xl:text-7xl">
+      <div className="w-full absolute top-0 mx-auto">
+        <div className="md:w-220 text-center absolute top-[194px] left-[331px] 2xl:left-1/5 2xl:top-[350px] 2xl:w-[50%]">
+          <h1 className="font-bold text-5xl lora-bold mb-6 leading-16 3xl:leading-32 3xl:text-7xl 2xl:mx-auto">
             Clicks&Trades offers education, community, journaling, and general
             market insights
           </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
       
 
       <div className="mt-[155px] w-full relative h-[850px]">
-        <div className="w-[990px] h-[850px] 2xl:w-[1200px]2xl:h-auto absolute top-0 bg-[url(./Dashboard.png)] bg-cover rounded-3xl border-8 border-gray-200 left-[225px] 2xl:left-2/7"></div>
+        <div className="w-[990px] h-[850px] 2xl:w-[1200px] absolute top-0 bg-[url(./Dashboard.png)] bg-cover rounded-3xl border-8 border-gray-200 left-[225px] 2xl:left-2/7 mx-auto"></div>
         <div className="w-full h-[290px] 2xl:h-[390px] bg-linear-to-t from-[rgba(255,255,255,1)] from-65% to-[rgba(255,255,255,0)] absolute bottom-0 left-[180px] 2xl:left-2/8 text-center">
           <div className="w-[1090px] text-center absolute bottom-2 2xl:w-[1200px]">
             <h2 className="outfit-normal text-3xl leading-9 mb-5 2xl:mb-9">
