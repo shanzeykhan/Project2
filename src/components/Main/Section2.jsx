@@ -20,7 +20,7 @@ const Section2 = () => {
               <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8">
                 What you Get:
               </h3>
-              <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 lg:mt-3 2xl:mt-6 mt-6">
+              <div className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 lg:mt-3 2xl:mt-6 mt-6">
                 <ul className="list-inside">
                   <li>• Education that builds understanding step by step</li>
                   <li>• A curated community where substance wins over hype</li>
@@ -32,7 +32,7 @@ const Section2 = () => {
                     • Smart decision-making frameworks that keep you focused
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
             <div className="md:h-[500px] h-[300px] 2xl:h-[540px] lg:w-[50%] w-full rounded-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
             <div className="w-5/6 h-5/6 bg-[url(./Dashboard.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl">

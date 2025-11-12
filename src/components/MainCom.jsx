@@ -8,6 +8,9 @@ import Section6 from './Main/Section6'
 import Section7 from './Main/Section7'
 import Section8 from './Main/Section8'
 import Section9 from './Main/Section9'
+import Section10 from './Main/Section10'
+import { Faq } from '../utils/constant'
+
 
 const MainCom = () => {
   return (
@@ -21,6 +24,7 @@ const MainCom = () => {
         <Section7/>
         <Section8/>
         <Section9/>
+        <Section10 Faq={Faq} />
     </div>
   )
 }
