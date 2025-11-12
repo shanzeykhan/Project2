@@ -17,7 +17,7 @@ const Section1 = () => {
                 website and for that we sincerely thank you! Crypto can feel
                 loud and unfamiliar. Clicks and Trades is our answer.
               </p>
-              <button className="md:px-8 px-4 py-5 text-[#00D5BE] border-2 text-lg outfit-normal border-[#00D5BE] rounded-2xl hover:bg-[#00D5BE] hover:text-white cursor-pointer leading-6 mt-10">
+              <button className="md:px-8 px-4 py-5 text-[#00D5BE] border-2 text-base outfit-normal border-[#00D5BE] rounded-2xl hover:bg-[#00D5BE] hover:text-white cursor-pointer leading-6 mt-10">
                 <a href="">Read more</a>
               </button>
             </div>

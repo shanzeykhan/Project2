@@ -24,7 +24,7 @@ const Section5 = () => {
                 <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8 tracking-tight mt-8">
                   One workspace for everything
                 </h3>
-                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 mt-3 2xl:mt-5">
+                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-3 2xl:mt-5">
                   A clean home that brings your learning, community
                   conversations, notes, and reviews into one place so the whole
                   journey stays organized.
@@ -50,7 +50,7 @@ const Section5 = () => {
                 <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8 tracking-tight mt-8">
                   Integrations with top exchanges
                 </h3>
-                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 mt-3 2xl:mt-5">
+                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-3 2xl:mt-5">
                   Planned connections to participating exchanges and wallets so
                   you can sync balances and activity for read-only analytics and
                   unified reporting, with availability and feature depth varying
@@ -69,7 +69,7 @@ const Section5 = () => {
                 <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8 tracking-tight mt-8">
                   Market updates
                 </h3>
-                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 mt-3 2xl:mt-5">
+                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-3 2xl:mt-5">
                   Clear, general updates and summaries that cut noise and keep
                   you oriented without personalization.
                 </p>
@@ -94,7 +94,7 @@ const Section5 = () => {
                 <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8 tracking-tight mt-8">
                   Onboarding and product help
                 </h3>
-                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 mt-3 2xl:mt-5">
+                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-3 2xl:mt-5">
                   Fast tours, bite-size how-tos, and human support when you are
                   stuck.
                 </p>
@@ -111,7 +111,7 @@ const Section5 = () => {
                 <h3 className="outfit-normal text-black text-3xl 2xl:text-4xl 2xl:outfit-medium leading-8 tracking-tight mt-8">
                   Smart decision making
                 </h3>
-                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-xl leading-6 mt-3 2xl:mt-5">
+                <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-3 2xl:mt-5">
                   Checklists, pre-trade and post-review forms, and scenario
                   planners that help you think clearly and act with discipline.
                 </p>
@@ -124,7 +124,7 @@ const Section5 = () => {
           </div>
 
           <div>
-            <button className="px-8 py-5 text-[#00D5BE] border-2 text-lg outfit-normal border-[#00D5BE] rounded-2xl hover:bg-[#00D5BE] hover:text-white cursor-pointer leading-6 mt-10">
+            <button className="px-8 py-5 text-[#00D5BE] border-2 text-base outfit-normal border-[#00D5BE] rounded-2xl hover:bg-[#00D5BE] hover:text-white cursor-pointer leading-6 mt-10">
               <a href="">Read more</a>
             </button>
           </div>

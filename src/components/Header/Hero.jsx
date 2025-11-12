@@ -29,8 +29,8 @@ const Hero = () => {
 
       <div className="mt-[155px] w-full relative h-[850px]">
         <div className="w-[990px] h-[850px] 2xl:w-[1200px] absolute top-0 bg-[url(./Dashboard.png)] bg-cover rounded-3xl border-8 border-gray-200 left-[225px] 2xl:left-2/7 mx-auto"></div>
-        <div className="w-full h-[290px] 2xl:h-[390px] bg-linear-to-t from-[rgba(255,255,255,1)] from-65% to-[rgba(255,255,255,0)] absolute bottom-0 left-[180px] 2xl:left-2/8 text-center">
-          <div className="w-[1090px] text-center absolute bottom-2 2xl:w-[1200px]">
+        <div className="w-[1090px] h-[290px] 2xl:h-[390px] bg-linear-to-t from-[rgba(255,255,255,1)] from-65% to-[rgba(255,255,255,0)] absolute bottom-0 left-[180px] 2xl:left-2/8 text-center">
+          <div className="w-full text-center absolute bottom-2 2xl:w-[1200px]">
             <h2 className="outfit-normal text-3xl leading-9 mb-5 2xl:mb-9">
               Our Partners/Partnerships
             </h2>
