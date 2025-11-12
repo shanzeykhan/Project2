@@ -5,6 +5,7 @@ import Section3 from './Main/Section3'
 import Section4 from './Main/Section4'
 import Section5 from './Main/Section5'
 import Section6 from './Main/Section6'
+import Section7 from './Main/Section7'
 
 const MainCom = () => {
   return (
@@ -15,6 +16,7 @@ const MainCom = () => {
         <Section4/>
         <Section5/>
         <Section6/>
+        <Section7/>
     </div>
   )
 }

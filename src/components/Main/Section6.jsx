@@ -15,11 +15,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Unified Data Engine
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Connect to participating exchanges and wallets through secure APIs to sync balances and activity for read only analytics and clean reporting.
             </p>
           </div>
@@ -30,11 +30,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_1.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 One platform, One Flow
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Learning, community, journaling, research, and analytics live together so the entire journey feels simple and connected.
             </p>
           </div>
@@ -45,11 +45,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_2.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Real Time Analytics
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Stream updates into normalized timeline so you can see positions, activity, and notes in one place with fast filtering and clear context.
             </p>
           </div>
@@ -60,11 +60,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_3.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Simplified User Experience
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Customizable workflows, checklists, and tidy layouts reduce clicks and help you stay focused on what matters.
             </p>
           </div>
@@ -75,11 +75,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_4.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Hyper Focused States
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Switch between Learn Mode, Build Mode, Review Mode, and Focus Mode to match your intent and keep distractions out.
             </p>
           </div>
@@ -90,11 +90,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_5.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Gamified Learning
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Switch between Learn Mode, Build Mode, Review Mode, and Focus Mode to match your intent and keep distractions out.
             </p>
           </div>
@@ -105,11 +105,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_6.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Research and News Hub
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Multi source news with de duplication, topic clustering, and saved highlights so you can track themes without the noise.
             </p>
           </div>
@@ -120,11 +120,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_7.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Templates and Playbooks
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Ready to use templates for journals, pre review and post review forms, and routines you can copy and customize.
             </p>
           </div>
@@ -135,11 +135,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_8.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Unified Portfolio View
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               Bring accounts together for a clean overview of allocations and activity across connected sources, with exportable summaries.
             </p>
           </div>
@@ -150,11 +150,11 @@ const Section6 = () => {
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_9.png" alt="" className="" />
               </div>
-              <h3 className="outfit-medium text-black text-lg 2xl:text-xl tracking-tight">
+              <h3 className="outfit-medium text-black text-lg tracking-tight">
                 Privacy and security first
               </h3>
             </div>
-            <p className="outfit-normal text-[#8C8C9A] text-base 2xl:text-lg leading-6 mt-[35px] max-xl:text-center">
+            <p className="outfit-normal text-[#8C8C9A] text-base leading-6 mt-[35px] max-xl:text-center">
               API keys stay encrypted, permissions are granular, and the default experience is non custodial.
             </p>
           </div>
