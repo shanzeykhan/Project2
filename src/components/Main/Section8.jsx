@@ -4,7 +4,7 @@ const Section8 = () => {
   return (
     <div className="relative">
 
-        <div className="w-full h-[1722px] absolute  bg-[url(./sec8_bg.png)] object-cover top-[84px]">
+        <div className="w-full h-[922px] absolute bg-[url(./sec8_bg.png)] object-cover top-[84px]">
 
         </div>
       <div className="w-full px-[156px] py-[100px]">
