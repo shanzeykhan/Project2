@@ -3,7 +3,7 @@ import React from "react";
 const Section3 = () => {
   return (
     <div>
-      <div className="w-full px-[78px] py-24">
+      <div className="w-full lg:px-[78px] py-24 md:px-10 sm:px-5 px-2">
         <div className="flex flex-col justify-center items-center 2xl:scale-120">
           <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
             Why is Clicks<span className="noto-sans-regular">&</span>Trades?

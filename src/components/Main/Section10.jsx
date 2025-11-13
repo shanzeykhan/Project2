@@ -1,16 +1,17 @@
 import React from "react";
+{/* Done all also responsive ----only drop down hide left */}
 
 const Section10 = ({Faq}) => {
   return (
     <div>
-      <div className="w-full px-[156px] py-[100px]">
-        <div className="w-full py-[46px] mx-auto">
+      <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2 mx-auto">
+        <div className="w-full py-[46px]">
           <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
             Frequently asked questions
           </h2>
         </div>
 
-        <div className="mt-[72px] w-[1128px] flex flex-col gap-6 items-center">
+        <div className="mt-[72px] max-w-[1128px] flex flex-col gap-6 items-center mx-auto">
 
           {Faq.map((items, index)=>(<div className="bg-[#F5F6F9] rounded-2xl p-8 border w-full border-[#EBEBEB]" key={index}>
             <div className="flex items-center justify-between">

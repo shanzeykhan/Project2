@@ -1,9 +1,10 @@
 import React from "react";
 
+
 const Section6 = () => {
   return (
     <div>
-      <div className="w-full px-[156px] py-[150px]">
+      <div className="w-full lg:px-[156px] py-[150px] md:px-[100px] sm:px-10 px-2">
         <h2 className="outfit-normal text-5xl xl:text-7xl text-black text-center leading-18 tracking-tighter max-md:scale-85 2xl:scale-120">
           Technology behind Clicks<span className="noto-sans-regular">&</span>
           Trades?

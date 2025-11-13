@@ -1,18 +1,21 @@
 import React from "react";
+{/* Done all also responsive */}
 
 const Section7 = () => {
   return (
     <div>
-      <div className="w-full px-[156px] py-[187px]">
+
+      
+      <div className="w-full lg:px-[156px] py-[187px] md:px-[100px] sm:px-10 px-2">
         <h2 className="outfit-normal text-5xl xl:text-7xl text-black text-center leading-18 tracking-tighter max-md:scale-85 2xl:scale-120">
           Why Clicks<span className="noto-sans-regular">&</span>
           Trades platform should be in your tool stack
         </h2>
 
-        <div className="mt-21 flex gap-8">
-          <div className="w-[356px] h-[460px]">
-            <div className="w-full h-[300px] px-[27px] pt-[46px] pb-[58px] rounded-2xl bg-[#F5F6F9] mt-6">
-              <img src="./img1.png" alt="" className="mx-auto" />
+        <div className="mt-21 flex gap-8 mx-auto max-lg:flex-col">
+          <div className="max-w-[356px] max-h-[460px] mx-auto">
+            <div className="w-full max-xl:max-h-[300px] lg:h-[300px] px-[27px] pt-[46px] pb-[58px] rounded-2xl bg-[#F5F6F9] mt-6">
+              <img src="./img1.png" alt="" className="mx-auto min-h-43" />
             </div>
             <div className="">
               <h3 className="outfit-normal text-black text-xl tracking-tight leading-7">
@@ -26,9 +29,9 @@ const Section7 = () => {
             </div>
           </div>
 
-          <div className="w-[356px] h-[460px]">
-            <div className="w-full h-[300px] px-[27px] pt-[46px] pb-[58px] rounded-2xl bg-[#F5F6F9] mt-6">
-              <img src="./img2.png" alt="" className="mx-auto" />
+          <div className="max-w-[356px] max-h-[460px] mx-auto">
+            <div className="w-full max-xl:max-h-[300px] min-h-43 lg:h-[300px] px-[27px] pt-[46px] pb-[58px] rounded-2xl bg-[#F5F6F9] mt-6 ">
+              <img src="./img2.png" alt="" className="mx-auto min-h-43" />
             </div>
             <div className="">
               <h3 className="outfit-normal text-black text-xl tracking-tight leading-7">
@@ -42,9 +45,9 @@ const Section7 = () => {
             </div>
           </div>
 
-          <div className="w-[356px] h-[460px]">
-            <div className="w-full h-[300px] px-[27px] pt-[46px] pb-[58px] rounded-2xl bg-[#F5F6F9] mt-6">
-              <img src="./img3.png" alt="" className="mx-auto" />
+          <div className="max-w-[356px] max-h-[460px] mx-auto">
+            <div className="w-full max-xl:max-h-[300px] min-h-43 lg:h-[300px] px-[27px] pt-[46px] pb-[58px] rounded-2xl bg-[#F5F6F9] mt-6 ">
+              <img src="./img3.png" alt="" className="mx-auto min-h-43" />
             </div>
             <div className="">
               <h3 className="outfit-normal text-black text-xl tracking-tight leading-7">

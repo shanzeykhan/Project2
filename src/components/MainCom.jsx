@@ -10,6 +10,8 @@ import Section8 from './Main/Section8'
 import Section9 from './Main/Section9'
 import Section10 from './Main/Section10'
 import { Faq } from '../utils/constant'
+import Section11 from './Main/Section11'
+import Section12 from './Main/Section12'
 
 
 const MainCom = () => {
@@ -25,6 +27,8 @@ const MainCom = () => {
         <Section8/>
         <Section9/>
         <Section10 Faq={Faq} />
+        <Section11/>
+        <Section12/>
     </div>
   )
 }
