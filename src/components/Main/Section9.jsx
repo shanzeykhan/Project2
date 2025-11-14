@@ -1,5 +1,6 @@
 import React from "react";
-{/* Done all also responsive*** check slider */}
+ import { useState } from "react";
+{/*check slider */}
 
 const Section9 = () => {
 
