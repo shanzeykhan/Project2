@@ -1,9 +1,9 @@
 import React from "react";
 //All done***
 
-const Section3 = () => {
+const Section3 = ({Sec3}) => {
   return (
-    <div>
+    <div id="Whyus">
       <div className="w-full lg:px-[70px] py-24 md:px-10 sm:px-5 px-2">
         <div className="flex flex-col justify-center items-center 2xl:scale-120">
           <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">
@@ -16,82 +16,24 @@ const Section3 = () => {
         </div>
 
         <div className="mt-21 flex gap-7 flex-wrap justify-center lg:gap-y-[81px] gap-y-7">
-          <div className="flex flex-col gap-y-6 max-w-[406px]">
+          
+          {Sec3.map((items, index)=>(<div className="flex flex-col gap-y-6 max-w-[406px]" key={index}>
             <div className="bg-[#F5F6F9] rounded-2xl pt-[30px] px-1">
-              <img src="./ClosedTradesWidget.png" alt="" className="mx-auto" />
+              <img src={items.imgUrl} alt="" className="mx-auto" />
             </div>
             <div>
               <h3 className="outfit-normal text-xl tracking-tight leading-7 text-black">
-                Experienced
+                {items.heading}
               </h3>
               <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3">
-                Decades of trading experience and years in crypto inform every
-                choice we make so the platform reflects what happens in real
-                markets.
+                {items.para}
               </p>
             </div>
-          </div>
+          </div>))}
 
-          <div className="flex flex-col gap-y-6 max-w-[406px]">
-            <div className="bg-[#F5F6F9] rounded-2xl pt-[30px] px-1">
-              <img src="./Sec3Container.png" alt="" className="mx-auto" />
-            </div>
-            <div>
-              <h3 className="outfit-normal text-xl tracking-tight leading-7 text-black">
-                Results
-              </h3>
-              <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3">
-                Simple routines, journaling, and smart decision making
-                frameworks that keep you focused and moving forward.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-y-6 max-w-[406px]">
-            <div className="bg-[#F5F6F9] rounded-2xl pt-[30px] px-1">
-              <img src="./ProductHelpWidget.png" alt="" className="mx-auto" />
-            </div>
-            <div>
-              <h3 className="outfit-normal text-xl tracking-tight leading-7 text-black">
-                Support
-              </h3>
-              <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3">
-                Real people, clear guides, and fast product help when you need
-                it.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-y-6 max-w-[406px]">
-            <div className="bg-[#F5F6F9] rounded-2xl pt-[30px]">
-              <img src="./LoginProcessWidget.png" alt="" className="mx-auto" />
-            </div>
-            <div>
-              <h3 className="outfit-normal text-xl tracking-tight leading-7 text-black">
-                Confused where to begin?
-              </h3>
-              <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3">
-                Step by step learning designed for clarity and testing so you
-                build understanding that sticks.
-              </p>
-            </div>
-          </div>
         </div>
 
-        {/* <div className="flex flex-col gap-y-6 max-w-[426px] w-[406px]">
-            <div className="bg-[#F5F6F9] rounded-2xl pt-[30px]">
-              <img src="./LoginProcessWidget.png" alt="" className="mx-auto" />
-            </div>
-            <div>
-              <h3 className="outfit-normal text-xl tracking-tight leading-7 text-black">
-                Confused where to begin?
-              </h3>
-              <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3">
-                Step by step learning designed for clarity and testing so you
-                build understanding that sticks.
-              </p>
-            </div>
-          </div> */}
+        
       </div>
     </div>
   );

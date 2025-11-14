@@ -2,6 +2,29 @@ import React from "react";
 {/* Done all also responsive*** check slider */}
 
 const Section9 = () => {
+
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [itemsPerView, setItemsPerView] = useState(1);
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) =>
+      prev === 0 ? topReviews.frames.length / itemsPerView - 1 : currentIndex - 1
+    );
+  };
+
+  const nextSlide = () => {
+    setCurrentIndex((prev) => {
+      console.log({ prev }, prev >= topReviews.frames.length / itemsPerView);
+
+      return currentIndex + 1 >= topReviews.frames.length / itemsPerView
+        ? 0
+        : currentIndex + 1;
+    });
+    console.log({ currentIndex });
+  };
+
+
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2">
@@ -85,6 +108,19 @@ const Section9 = () => {
         <div>
             <img src="./Slider.png" alt="" className="mx-auto"/>
         </div>
+        {/* <div className="flex justify-center gap-2 mt-4">
+        {Array.from({ length: frames.length / itemsPerView }).map(
+          (_, index) => (
+            <div
+              key={index}
+              onClick={() => setCurrentIndex(index)}
+              className={`h-3 w-3 rounded-full cursor-pointer ${
+                currentIndex === index ? "bg-black" : "bg-gray-400"
+              }`}
+            ></div>
+          )
+        )}
+      </div> */}
 
 
       </div>

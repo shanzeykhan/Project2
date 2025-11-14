@@ -9,7 +9,7 @@ import Section7 from './Main/Section7'
 import Section8 from './Main/Section8'
 import Section9 from './Main/Section9'
 import Section10 from './Main/Section10'
-import { Faq } from '../utils/constant'
+import { Faq, Founder, Sec3, Sec4, Sec6, Sec7 } from '../utils/constant'
 import Section11 from './Main/Section11'
 import Section12 from './Main/Section12'
 
@@ -17,13 +17,13 @@ import Section12 from './Main/Section12'
 const MainCom = () => {
   return (
     <div>
-        <Section1/>
+        <Section1 Founder={Founder}/>
         <Section2/>
-        <Section3/>
-        <Section4/>
+        <Section3 Sec3={Sec3}/>
+        <Section4 Sec4={Sec4}/>
         <Section5/>
-        <Section6/>
-        <Section7/>
+        <Section6 Sec6={Sec6}/>
+        <Section7 Sec7={Sec7}/>
         <Section8/>
         <Section9/>
         <Section10 Faq={Faq} />

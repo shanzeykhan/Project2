@@ -3,7 +3,7 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <div>
+    <div id="Whatis">
       <div className="w-full lg:px-[156px] py-[130px] md:px-[100px] sm:px-10 px-2">
         <div className="flex flex-col justify-center items-center 2xl:scale-120">
           <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">

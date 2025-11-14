@@ -1,13 +1,13 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({header}) => {
   return (
     <div>
       <div className="w-full relative">
         <img src="./Vector 19.png" alt="" className="absolute top-0 w-full min-h-[547px]" />
         <img src="./Vector 18.png" alt="" className="absolute top-0 w-full min-h-[547px]" />
         <img src="./Framehero.png" alt="" className="md:px-13 w-full opacity-80 min-h-[547px]" />
-        <div className="w-full md:px-13 px-2 md:py-5 py-2 border-b border-b-white/10 flex justify-between items-center absolute top-0 bg-white/5 overflow-hidden">
+        <div className="w-full md:px-13 px-2 md:py-5 py-2 border-b border-b-white/10 flex justify-between items-center absolute top-0 bg-white/5 overflow-hidden z-10">
           <img
             src="./logo.png"
             alt="Logo"
@@ -16,37 +16,37 @@ const Header = () => {
           <div className="flex justify-between items-center md:gap-4 gap-2">
             <div className="navbar flex items-center md:gap-8 gap-2 text-white md:text-[14px] text-[10px] max-md:tracking-tighter poppins-regular">
               <a
-                href="#home"
+                href=""
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
               >
                 Home
               </a>
               <a
-                href="#aboutus"
+                href="#Aboutus"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
               >
                 About us
               </a>
               <a
-                href="#whyus"
+                href="#Whyus"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
               >
                 Why us
               </a>
               <a
-                href="#whofor"
+                href="#Whofor"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
               >
                 Who For
               </a>
               <a
-                href="#details"
+                href="#detail"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
               >
                 $CANT Token Details
               </a>
               <a
-                href="#questions"
+                href="#question"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
               >
                 Questions

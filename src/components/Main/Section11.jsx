@@ -1,7 +1,38 @@
-import React from "react";
-{/* Done all also responsive*** */}
+import React, { useReducer } from "react";
 
 const Section11 = () => {
+  const initialState = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    city: "",
+    question: "",
+    isSubmitted: false,
+  };
+  const reducer = (state, action) => {
+    switch (action.type) {
+      case "add-data":
+        return { ...state, [action.field]: action.value };
+        break;
+      case "submit":
+        return { ...state, isSubmitted: true };
+      case "reset":
+        return initialState;
+      default:
+        return state;
+        break;
+    }
+  };
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch({ type: "submit" });
+    console.log("Data Submitted Successfully");
+    console.log(state);
+    dispatch({type:"reset"});
+  };
+
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[100px] 2xl:max-w-[1440px] mx-auto md:px-[100px] sm:px-10 px-2">
@@ -45,97 +76,159 @@ const Section11 = () => {
           </div>
 
           <div className="w-[62%] shadow shadow-black/24 rounded-xl max-xl:w-full">
-              <form className="py-[39px] px-5 flex flex-wrap gap-[21px] w-full max-lg:px-3">
-                <div className="w-[48%] max-lg:w-full">
-                  <label for="fname" className="poppins-regular text-[14px] w-full">
-                    First Name*
-                  </label>
-                  <br></br>
-                  <input
-                    className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
-                    type="text"
-                    id="fname"
-                    name="fname"
-                  />
-                </div>
-                <div className="w-[48%] max-lg:w-full">
-                  <label for="lname" className="poppins-regular text-[14px] w-full">
-                    Last Name*
-                  </label>
-                  <br></br>
-                  <input
-                    className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px]"
-                    type="text"
-                    name="lname"
-                    id="lname"
-                  />
-                </div>
-
-                <div className="w-[48%] max-lg:w-full">
-                  <label for="email" className="poppins-regular text-[14px] w-full">
-                    Email
-                  </label>
-                  <br></br>
-                  <input
-                    className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
-                    type="email"
-                    name="email"
-                    id="email"
-                  />
-                </div>
-
-                <div className="w-[48%] max-lg:w-full">
-                  <label for="phone" className="poppins-regular text-[14px] w-full">
-                    Phone*
-                  </label>
-                  <br></br>
-                  <input
-                    className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
-                    type="phone"
-                    name="phone"
-                    id="phone"
-                  />
-                </div>
-
-                <div className="w-full">
-                  <label
-                    for="city"
-                    className="poppins-regular text-[14px] w-full"
-                  >
-                    City/Municipality*
-                  </label>
-                  <br></br>
-                  <input
-                    className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px]"
-                    type="city"
-                    name="city"
-                    id="city"
-                  />
-                </div>
-
-                <div className="w-full">
-                  <label
-                    for="question"
-                    className="poppins-regular text-[14px] w-full"
-                  >
-                    Question/Questions*
-                  </label>
-                  <br></br>
-                  <textarea
-                    className="w-full bg-[#000000]/3 min-w-[271px] min-h-[46px] rounded-[7px] mt-[15px]"
-                    name="question"
-                    id="question"
-                    rows={3}
-                  ></textarea>
-                </div>
-                <button
-                  className="w-full px-8 py-3 hover:text-[#00D5BE] hover:bg-white border-2 text-xl inter-bold border-[#00D5BE] rounded-[40px] bg-[#00D5BE] text-white cursor-pointer"
-                  type="submit"
+            <form
+              className="py-[39px] px-5 flex flex-wrap gap-[21px] w-full max-lg:px-3"
+              onSubmit={handleSubmit}
+            >
+              <div className="w-[48%] max-lg:w-full">
+                <label
+                  for="fname"
+                  className="poppins-regular text-[14px] w-full"
                 >
-                  Submit
-                </button>
-              </form>
-           
+                  First Name*
+                </label>
+                <br></br>
+                <input
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
+                  type="text"
+                  id="fname"
+                  name="firstName"
+                  value={state.firstName}
+                  onChange={(e) => {
+                    dispatch({
+                      type: "add-data",
+                      field: "firstName",
+                      value: e.target.value,
+                    });
+                  }}
+                />
+              </div>
+              <div className="w-[48%] max-lg:w-full">
+                <label
+                  for="lname"
+                  className="poppins-regular text-[14px] w-full"
+                >
+                  Last Name*
+                </label>
+                <br></br>
+                <input
+                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px]"
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  value={state.lastName}
+                  onChange={(e)=>{
+                    dispatch({
+                      type:"add-data",
+                      field:"lastName",
+                      value:e.target.value,
+                    })}
+                  }
+                />
+              </div>
+
+              <div className="w-[48%] max-lg:w-full">
+                <label
+                  for="email"
+                  className="poppins-regular text-[14px] w-full"
+                >
+                  Email
+                </label>
+                <br></br>
+                <input
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
+                  type="email"
+                  name="email"
+                  id="email"
+                  value={state.email}
+                  onChange={(e)=>{
+                    dispatch({
+                      type:"add-data",
+                      field:"email",
+                      value:e.target.value,
+                    })}
+                  }
+                />
+              </div>
+
+              <div className="w-[48%] max-lg:w-full">
+                <label
+                  for="phone"
+                  className="poppins-regular text-[14px] w-full"
+                >
+                  Phone*
+                </label>
+                <br></br>
+                <input
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
+                  type="phone"
+                  name="phone"
+                  id="phone"
+                   value={state.phone}
+                  onChange={(e)=>
+                    {dispatch({
+                      type:"add-data",
+                      field:"phone",
+                      value:e.target.value,
+                    })}
+                  }
+                />
+              </div>
+
+              <div className="w-full">
+                <label
+                  for="city"
+                  className="poppins-regular text-[14px] w-full"
+                >
+                  City/Municipality*
+                </label>
+                <br></br>
+                <input
+                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px]"
+                  type="city"
+                  name="city"
+                  id="city"
+                   value={state.city}
+                  onChange={(e)=>{
+                    dispatch({
+                      type:"add-data",
+                      field:"city",
+                      value:e.target.value,
+                    })}
+                  }
+                />
+              </div>
+
+              <div className="w-full">
+                <label
+                  for="question"
+                  className="poppins-regular text-[14px] w-full"
+                >
+                  Question/Questions*
+                </label>
+                <br></br>
+                <textarea
+                  className="w-full bg-[#000000]/3 min-w-[271px] min-h-[46px] rounded-[7px] mt-[15px]"
+                  name="question"
+                  id="question"
+                  rows={3}
+                   value={state.question}
+                  onChange={(e)=>
+                    {dispatch({
+                      type:"add-data",
+                      field:"question",
+                      value:e.target.value,
+                    })}
+                  }
+                ></textarea>
+              </div>
+              <button
+                className="w-full px-8 py-3 hover:text-[#00D5BE] hover:bg-white border-2 text-xl inter-bold border-[#00D5BE] rounded-[40px] bg-[#00D5BE] text-white cursor-pointer"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>
