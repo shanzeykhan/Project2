@@ -4,17 +4,17 @@ const Header = () => {
   return (
     <div>
       <div className="w-full relative">
-        <img src="./Vector 19.png" alt="" className="absolute top-0 w-full" />
-        <img src="./Vector 18.png" alt="" className="absolute top-0 w-full" />
-        <img src="./Framehero.png" alt="" className="px-13 w-full opacity-80" />
-        <div className="w-full px-13 py-5 border-b border-b-white/10 flex justify-between items-center absolute top-0 3xl:px-16 3xl:py-8 bg-white/5">
+        <img src="./Vector 19.png" alt="" className="absolute top-0 w-full min-h-[547px]" />
+        <img src="./Vector 18.png" alt="" className="absolute top-0 w-full min-h-[547px]" />
+        <img src="./Framehero.png" alt="" className="md:px-13 w-full opacity-80 min-h-[547px]" />
+        <div className="w-full md:px-13 px-2 md:py-5 py-2 border-b border-b-white/10 flex justify-between items-center absolute top-0 bg-white/5 overflow-hidden">
           <img
             src="./logo.png"
             alt="Logo"
-            className="scale-105 3xl:scale-120"
+            className="md:w-[202px] md:h-[42px] w-25 h-8 hidden md:block"
           />
-          <div className="flex justify-between items-center gap-4 3xl:gap-16">
-            <div className="navbar flex items-center gap-8 text-white 3xl:text-xl text-[14px] 3xl:gap-16 poppins-regular">
+          <div className="flex justify-between items-center md:gap-4 gap-2">
+            <div className="navbar flex items-center md:gap-8 gap-2 text-white md:text-[14px] text-[10px] max-md:tracking-tighter poppins-regular">
               <a
                 href="#home"
                 className="hover:text-[#14ddb6] active:text-[#14ddb6]"
@@ -61,8 +61,8 @@ const Header = () => {
                 <option className="text-black" value="urdu">Urdu</option>
               </select>
             </div>
-            <button className="py-4 3xl:px-5 px-[13px] rounded-[10px] bg-[#14ddb6] text-black font-bold 3xl:text-xl border-2 border-[#14ddb6] hover:border-amber-500 hover:bg-white hover:text-amber-400 transition-colors delay-75 duration-75 ">
-              <a href="#waitlist">Join our Waitlist</a>{" "}
+            <button className="py-4 md:px-[13px] px-2 rounded-[10px] bg-[#14ddb6] text-black font-bold border-2 hidden md:block border-[#14ddb6] hover:border-amber-500 hover:bg-white hover:text-amber-400 transition-colors delay-75 duration-75 ">
+              <a href="#waitlist">Join our Waitlist</a>
             </button>
           </div>
         </div>

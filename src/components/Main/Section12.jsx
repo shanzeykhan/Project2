@@ -1,16 +1,16 @@
 import React from "react";
-// All done also responsiveness done
+// All done also responsiveness done***
 
 const Section12 = () => {
   return (
     <div className="relative">
       
-      <div className="w-full h-full z-[-1] absolute bg-[url(./subscribe-bg.png)] bg-contain 2xl:bg-cover bg-no-repeat top-0"></div>
+      <div className="w-full h-full z-[-1] absolute bg-[url(./subscribe-bg.png)] bg-contain top-30 md:top-0 2xl:bg-cover bg-no-repeat"></div>
 
       <div className="py-[100px] w-full mx-auto max-w-[725px] px-2">
 
         <div className="flex items-center flex-col mx-auto justify-center gap-6">
-          <h1 className="outfit-normal text-7xl leading-18 tracking-tighter text-[#060B13] text-center max-w-[516px]">
+          <h1 className="outfit-normal md:text-7xl text-5xl leading-10 md:leading-18 tracking-tighter text-[#060B13] text-center max-w-[516px]">
             Subscribe to Our Newsletter
           </h1>
           <p className="outfit-normal text-base leading-6 text-center text-[#8C8C9A]">

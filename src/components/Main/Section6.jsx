@@ -1,17 +1,18 @@
 import React from "react";
+//all done***
 
 
 const Section6 = () => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[150px] md:px-[100px] sm:px-10 px-2">
-        <h2 className="outfit-normal text-5xl xl:text-7xl text-black text-center leading-18 tracking-tighter max-md:scale-85 2xl:scale-120">
+        <h2 className="outfit-normal text-5xl md:text-7xl text-black text-center md:leading-18 leading-10 tracking-tighter">
           Technology behind Clicks<span className="noto-sans-regular">&</span>
           Trades?
         </h2>
 
         <div className="mt-21 flex flex-wrap justify-center items-center gap-6">
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon.png" alt="" className="" />
@@ -26,7 +27,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_1.png" alt="" className="" />
@@ -41,7 +42,7 @@ const Section6 = () => {
           </div>
 
 
-         <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+         <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_2.png" alt="" className="" />
@@ -56,7 +57,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_3.png" alt="" className="" />
@@ -71,7 +72,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_4.png" alt="" className="" />
@@ -86,7 +87,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_5.png" alt="" className="" />
@@ -101,7 +102,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_6.png" alt="" className="" />
@@ -116,7 +117,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_7.png" alt="" className="" />
@@ -131,7 +132,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_8.png" alt="" className="" />
@@ -146,7 +147,7 @@ const Section6 = () => {
           </div>
 
 
-          <div className="bg-[#F5F6F9] w-[543px] h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
+          <div className="bg-[#F5F6F9] w-[543px] min-h-[206px] px-10 pt-9 pb-3 rounded-2xl max-xl:w-[480px] max-xl:px-5">
             <div className="flex items-center gap-3 max-xl:flex-col max-xl:justify-center">
               <div className="w-12 h-12 p-3 rounded-full shadow-inner shadow-gray-200">
                 <img src="./Icon_9.png" alt="" className="" />

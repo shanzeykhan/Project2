@@ -1,5 +1,5 @@
 import React from "react";
-{/* Done all also responsive */}
+{/* Done all also responsive*** */}
 
 const Section7 = () => {
   return (
@@ -7,7 +7,7 @@ const Section7 = () => {
 
       
       <div className="w-full lg:px-[156px] py-[187px] md:px-[100px] sm:px-10 px-2">
-        <h2 className="outfit-normal text-5xl xl:text-7xl text-black text-center leading-18 tracking-tighter max-md:scale-85 2xl:scale-120">
+        <h2 className="outfit-normal text-5xl md:text-7xl text-black text-center leading-10 md:leading-18 tracking-tighter">
           Why Clicks<span className="noto-sans-regular">&</span>
           Trades platform should be in your tool stack
         </h2>

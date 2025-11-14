@@ -1,14 +1,15 @@
 import React from "react";
+//All Done***
 
 const Section1 = () => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[180px] md:px-[100px] sm:px-10 px-2">
-          <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
+          <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">
             Welcome to Click<span className="noto-sans-regular">&</span>Trades
           </h2>
-          <div className="bg-[#F5F6F9] 3xl:h-[600px] w-full 2xl:w-[1228px] 2xl:mx-auto mt-10 rounded-4xl py-4 pr-4 lg:pl-13 pl-5 flex items-center justify-center gap-10">
-            <div className="w-[47%]">
+          <div className="bg-[#F5F6F9] 3xl:h-[600px] w-full 2xl:w-[1228px] 2xl:mx-auto mt-10 rounded-4xl py-4 pr-4 lg:pl-13 pl-5 flex items-center justify-center gap-10 max-sm:flex-col-reverse">
+            <div className="sm:w-[47%] w-full">
               <p className="outfit-normal text-[#969696] text-xl xl:text-2xl leading-8">
                 Hey hello,
               </p>
@@ -21,9 +22,9 @@ const Section1 = () => {
                 <a href="">Read more</a>
               </button>
             </div>
-            <div className="h-[500px] w-[53%] rounded-2xl bg-[#F2F3F7] bg-[url(./Groupbg.png)] bg-cover flex justify-evenly items-center gap-1 p-1 flex-wrap">
-              <div className=" bg-white rounded-xl p-3.5 flex flex-col items-center justify-center w-[222px] h-[237px] md:min-w-35">
-                <div className="bg-white rounded-xl py-2.5 px-[22px]">
+            <div className="sm:h-[500px] sm:w-[53%] w-full rounded-2xl bg-[#F2F3F7] bg-[url(./Groupbg.png)] bg-cover flex justify-evenly items-center gap-1 p-1 flex-wrap">
+              <div className=" bg-white rounded-xl sm:p-3.5 p-1 flex flex-col items-center justify-center max-md:max-w-[222px] max-md:max-h-[237px] md:min-w-35">
+                <div className="bg-white rounded-xl sm:py-2.5 sm:px-[22px]">
                   <img src="./Nicole.png" alt="Nicole_img" />
                 </div>
                 <div className="text-center">
@@ -36,8 +37,8 @@ const Section1 = () => {
                 </div>
 
               </div>
-              <div className=" bg-white rounded-xl md:p-3.5 p-1 flex flex-col items-center justify-center w-[222px] h-[237px] md:min-w-35">
-                <div className="bg-white rounded-xl py-2.5 px-[22px]">
+              <div className=" bg-white rounded-xl sm:p-3.5 p-1 flex flex-col items-center justify-center max-md:max-w-[222px] max-md:max-h-[237px] md:min-w-35">
+                <div className="bg-white rounded-xl sm:py-2.5 sm:px-[22px]">
                   <img src="./gerry.png" alt="gerry_img" />
                 </div>
                 <div className="text-center">

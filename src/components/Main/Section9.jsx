@@ -1,12 +1,12 @@
 import React from "react";
-{/* Done all also responsive */}
+{/* Done all also responsive*** check slider */}
 
 const Section9 = () => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2">
         <div className="w-full py-[46px] mx-auto">
-          <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
+          <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">
             What Others Say
           </h2>
         </div>

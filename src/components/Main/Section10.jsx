@@ -1,12 +1,12 @@
 import React from "react";
-{/* Done all also responsive ----only drop down hide left */}
+{/* Done all also responsive ----only drop down hide left*** */}
 
 const Section10 = ({Faq}) => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2 mx-auto">
         <div className="w-full py-[46px]">
-          <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
+          <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">
             Frequently asked questions
           </h2>
         </div>

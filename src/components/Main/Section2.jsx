@@ -1,11 +1,12 @@
 import React from "react";
+//All Done***
 
 const Section2 = () => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[130px] md:px-[100px] sm:px-10 px-2">
         <div className="flex flex-col justify-center items-center 2xl:scale-120">
-          <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
+          <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">
             What is Clicks<span className="noto-sans-regular">&</span>Trades?
           </h2>
           <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3 md:w-[670px] w-full text-center">

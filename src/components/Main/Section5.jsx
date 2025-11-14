@@ -1,23 +1,24 @@
 import React from "react";
+//all done***
 
 const Section5 = () => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[110px] md:px-[100px] sm:px-10 px-2">
-        <div className="flex flex-col justify-center items-center 2xl:scale-120">
-          <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter">
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="outfit-normal md:text-7xl text-5xl leading-10 text-black text-center md:leading-18 tracking-tighter">
             Feature Highlights
           </h2>
-          <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3 w-[670px] text-center">
+          <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-3 max-w-[670px] text-center">
             Following are some of our product highlights from our upcoming
             platform.
           </p>
         </div>
 
         <div className="flex flex-col items-center">
-          <div className="bg-[#F5F6F9] h-[332px] 2xl:h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto">
-            <div className="flex items-center justify-center gap-20 pr-4 pl-14">
-              <div className="w-[44%]">
+          <div className="bg-[#F5F6F9] min-h-[332px] 2xl:min-h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto max-md:pt-6">
+            <div className="flex items-center justify-center lg:gap-20 gap-5 lg:pr-4 lg:pl-14 pr-2 pl-6 md:flex-row flex-col">
+              <div className="md:w-[44%] w-full">
                 <div className="w-12 h-12 p-3 rounded-lg shadow-inner shadow-gray-200">
                   <img src="./Button5.png" alt="" className="" />
                 </div>
@@ -31,19 +32,19 @@ const Section5 = () => {
                 </p>
               </div>
 
-              <div className="h-[332px] 2xl:h-[540px] w-[56%] rounded-tr-2xl rounded-br-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
-                <div className="w-8/10 h-7/8 bg-[url(./Wireframe0.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl"></div>
+              <div className="min-h-[332px] 2xl:min-h-[400px] md:w-[56%] w-full rounded-tr-2xl rounded-br-2xl bg-[#F2F3F7] relative border border-[#EBEBEB]">
+                <div className="xl:w-8/10 xl:h-7/8 w-full h-full bg-[url(./Wireframe0.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl max-md:rounded-2xl"></div>
               </div>
             </div>
           </div>
 
-          <div className="bg-[#F5F6F9] h-[332px] 2xl:h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto">
-            <div className="flex items-center justify-center gap-20 pl-4 pr-14">
-              <div className="h-[332px] 2xl:h-[540px] w-[52%] rounded-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
-                <div className="w-7/8 h-full bg-[url(./Wireframe.png)] bg-cover absolute bottom-0 left-0 rounded-tl-2xl rounded-bl-2xl"></div>
+          <div className="bg-[#F5F6F9] min-h-[332px] 2xl:min-h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto max-md:pt-6">
+            <div className="flex items-center justify-center lg:gap-20 gap-5 lg:pl-4 lg:pr-14 md:pl-2 md:pr-6 pl-6 pr-2 md:flex-row flex-col-reverse">
+              <div className="min-h-[332px] 2xl:min-h-[400px] md:w-[52%] w-full rounded-2xl bg-[#F2F3F7] relative border border-[#EBEBEB]">
+                <div className="xl:w-7/8 w-full h-full bg-[url(./Wireframe.png)] bg-cover absolute bottom-0 left-0 rounded-tl-2xl rounded-bl-2xl max-md:rounded-2xl"></div>
               </div>
 
-              <div className="w-[48%]">
+              <div className="md:w-[48%] w-full">
                 <div className="w-12 h-12 p-3 rounded-lg shadow-inner shadow-gray-200">
                   <img src="./Button5.png" alt="" className="" />
                 </div>
@@ -60,9 +61,9 @@ const Section5 = () => {
             </div>
           </div>
 
-          <div className="bg-[#F5F6F9] h-[332px] 2xl:h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto">
-            <div className="flex items-center justify-center gap-20 pr-4 pl-14">
-              <div className="w-[44%]">
+          <div className="bg-[#F5F6F9] min-h-[332px] 2xl:min-h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto max-md:pt-6">
+            <div className="flex items-center justify-center lg:gap-20 gap-5 lg:pr-4 lg:pl-14 pr-2 pl-6 md:flex-row flex-col">
+              <div className="md:w-[44%] w-full">
                 <div className="w-12 h-12 p-3 rounded-lg shadow-inner shadow-gray-200">
                   <img src="./Button5.png" alt="" className="" />
                 </div>
@@ -75,19 +76,19 @@ const Section5 = () => {
                 </p>
               </div>
 
-              <div className="h-[332px] 2xl:h-[540px] w-[56%] rounded-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
-                <div className="w-8/10 h-7/8 bg-[url(./Wireframe1.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl"></div>
+              <div className="h-[332px] 2xl:h-[400px] md:w-[56%] w-full rounded-2xl bg-[#F2F3F7] relative border border-[#EBEBEB]">
+                <div className="xl:w-8/10 xl:h-7/8 w-full h-full bg-[url(./Wireframe1.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl max-md:rounded-2xl"></div>
               </div>
             </div>
           </div>
 
-          <div className="bg-[#F5F6F9] h-[332px] 2xl:h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto">
-            <div className="flex items-center justify-center gap-20 pl-4 pr-14">
-              <div className="h-[332px] 2xl:h-[540px] w-[52%] rounded-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
-                <div className="w-7/8 h-full bg-[url(./Wireframe2.png)] bg-cover absolute bottom-0 left-0 rounded-tl-2xl rounded-bl-2xl"></div>
+          <div className="bg-[#F5F6F9] min-h-[332px] 2xl:min-h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto max-md:pt-6">
+            <div className="flex items-center justify-center lg:gap-20 gap-5 lg:pl-4 lg:pr-14 md:pl-2 md:pr-6 pl-6 pr-2 md:flex-row flex-col-reverse">
+              <div className="min-h-[332px] 2xl:min-h-[400px] w-full md:w-[52%] rounded-2xl bg-[#F2F3F7] relative border border-[#EBEBEB]">
+                <div className="xl:w-7/8 w-full h-full bg-[url(./Wireframe2.png)] bg-cover absolute bottom-0 left-0 rounded-tl-2xl rounded-bl-2xl max-md:rounded-2xl"></div>
               </div>
 
-              <div className="w-[48%]">
+              <div className="md:w-[48%] w-full">
                 <div className="w-12 h-12 p-3 rounded-lg shadow-inner shadow-gray-200">
                   <img src="./Button5.png" alt="" className="" />
                 </div>
@@ -102,9 +103,9 @@ const Section5 = () => {
             </div>
           </div>
 
-          <div className="bg-[#F5F6F9] h-[332px] 2xl:h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto">
-            <div className="flex items-center justify-center gap-20 pr-4 pl-14">
-              <div className="w-[44%]">
+          <div className="bg-[#F5F6F9] min-h-[332px] 2xl:min-h-[400px] w-full mt-9 rounded-4xl 2xl:w-[1128px] 2xl:mx-auto max-md:pt-6">
+            <div className="flex items-center justify-center lg:gap-20 gap-5 lg:pr-4 lg:pl-14 pr-2 pl-6 md:flex-row flex-col">
+              <div className="md:w-[44%] w-full">
                 <div className="w-12 h-12 p-3 rounded-lg shadow-inner shadow-gray-200">
                   <img src="./Button5.png" alt="" className="" />
                 </div>
@@ -117,8 +118,8 @@ const Section5 = () => {
                 </p>
               </div>
 
-              <div className="h-[332px] 2xl:h-[540px] w-[56%] rounded-2xl bg-[#F2F3F7] flex justify-evenly items-center relative border border-[#EBEBEB]">
-                <div className="w-8/10 h-7/8 bg-[url(./Wireframe3.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl"></div>
+              <div className="min-h-[332px] 2xl:min-h-[400px] md:w-[56%] w-full rounded-2xl bg-[#F2F3F7] relative border border-[#EBEBEB]">
+                <div className="xl:w-8/10 xl:h-7/8 w-full h-full bg-[url(./Wireframe3.png)] bg-cover absolute bottom-0 right-0 rounded-tl-2xl rounded-br-2xl max-md:rounded-2xl"></div>
               </div>
             </div>
           </div>

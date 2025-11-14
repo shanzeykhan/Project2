@@ -1,12 +1,12 @@
 import React from "react";
-// All done also responsiveness done
+// All done also responsiveness done***
 
 const Footer = () => {
   return (
     <div>
       <div className="w-full bg-black pt-16 pb-3  text-white px-2">
         <div className="xl:w-[1209px] h-full mx-auto">
-          <div className="py-[18px] pl-[31px] pr-1 flex gap-10 flex-wrap">
+          <div className="py-[18px] sm:pl-[31px] pr-1 flex gap-10 flex-wrap pl-4">
 
             <div className="flex flex-col justify-between w-104 h-[167px]">
               <img src="./logo.png" alt="logo" className="w-[127px] h-[27px]" />
@@ -39,15 +39,15 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="w-[214px]">
+              <div className="w-[217px]">
                 <h3 className="inter-bold text-[14px] leading-5 text-[#D1D5DB]">
                   Quick Menu
                 </h3>
-                <div className="mt-[22px] inter-regular text-[14px] leading-[21px] flex flex-col">
-                    <a href="" className="mb-3.5">Home</a>
-                    <a href="" className="mb-3.5">WHAT is Clicks & Trades?</a>
-                    <a href="" className="mb-3.5">FOR WHOM is Clicks & Trades?</a>
-                    <a href="" className="mb-3.5">$CANT Token of Clicks & Trades</a>
+                <div className="mt-[22px] inter-regular text-[14px] leading-[21px] flex flex-col sm:gap-3.5 gap-1">
+                    <a href="" className="">Home</a>
+                    <a href="" className="">WHAT is Clicks & Trades?</a>
+                    <a href="" className="">FOR WHOM is Clicks & Trades?</a>
+                    <a href="" className="">$CANT Token of Clicks & Trades</a>
                 </div>
               </div>
 

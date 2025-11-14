@@ -1,10 +1,11 @@
 import React from "react";
+//All done***
 
 const Section4 = () => {
   return (
     <div>
       <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2">
-        <h2 className="outfit-normal text-7xl text-black text-center leading-18 tracking-tighter 2xl:scale-120 max-md:text-4xl">
+        <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter 2xl:scale-120 max-md:text-4xl">
           For Whom is Clicks<span className="noto-sans-regular">&</span>Trades?
         </h2>
 
