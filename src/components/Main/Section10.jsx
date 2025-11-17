@@ -1,5 +1,5 @@
 import React from "react";
-{/* Done all also responsive ----only drop down hide left*** */}
+{/* Done all*** */}
 
 const Section10 = ({Faq}) => {
   return (

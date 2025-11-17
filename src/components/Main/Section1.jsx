@@ -1,5 +1,5 @@
 import React from "react";
-//All Done***
+
 
 const Section1 = ({Founder}) => {
   return (

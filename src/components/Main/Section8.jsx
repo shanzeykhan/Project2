@@ -1,5 +1,5 @@
 import React from "react";
-{/* Done all also responsive***  */}
+{/* Done all***  */}
 
 const Section8 = () => {
   return (

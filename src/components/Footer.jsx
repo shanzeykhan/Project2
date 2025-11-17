@@ -1,5 +1,5 @@
 import React from "react";
-// All done also responsiveness done***
+// All done***
 
 const Footer = () => {
   return (

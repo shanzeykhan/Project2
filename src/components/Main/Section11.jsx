@@ -89,9 +89,10 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1"
                   type="text"
                   id="fname"
+                  required
                   name="firstName"
                   value={state.firstName}
                   onChange={(e) => {
@@ -112,10 +113,11 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px]"
+                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1"
                   type="text"
                   name="lname"
                   id="lname"
+                  required
                   value={state.lastName}
                   onChange={(e)=>{
                     dispatch({
@@ -132,14 +134,15 @@ const Section11 = () => {
                   for="email"
                   className="poppins-regular text-[14px] w-full"
                 >
-                  Email
+                  Email*
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1"
                   type="email"
                   name="email"
                   id="email"
+                  required
                   value={state.email}
                   onChange={(e)=>{
                     dispatch({
@@ -160,10 +163,11 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full"
-                  type="phone"
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1"
+                  type="number"
                   name="phone"
                   id="phone"
+                  required
                    value={state.phone}
                   onChange={(e)=>
                     {dispatch({
@@ -184,10 +188,11 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px]"
+                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1"
                   type="city"
                   name="city"
                   id="city"
+                  required
                    value={state.city}
                   onChange={(e)=>{
                     dispatch({
@@ -208,9 +213,10 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <textarea
-                  className="w-full bg-[#000000]/3 min-w-[271px] min-h-[46px] rounded-[7px] mt-[15px]"
+                  className="w-full bg-[#000000]/3 min-w-[271px] min-h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1"
                   name="question"
                   id="question"
+                  required
                   rows={3}
                    value={state.question}
                   onChange={(e)=>

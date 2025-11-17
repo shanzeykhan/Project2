@@ -256,3 +256,24 @@ export const header = [
     },
 
 ]
+
+export const reviews = [
+    {
+        imgUrl:"./imgsec9_1.png",
+        msg:"I used to find crypto confusing. The step-by-step lessons from Clicks&Trades helped me understand the basics, and the journaling kept me organized. I’m excited for the upcoming platform to bring learning, community, and my notes together in one place.",
+        name:"Hans Derycke",
+        designation:"(61 years old), truck driver, Geraardsbergen",
+    },
+    {
+        imgUrl:"./imgsec9_2.png",
+        msg:"Ante facilisi ipsum sit eget dolor maecenas sed. Fringilla laoreet tincidunt nec nulla ullamcorper. Convallis viverra risus, facilisis erat gravida justo, urna ultrices.",
+        name:"Kyle Merwin",
+        designation:"CO-owner",
+    },
+    {
+        imgUrl:"./imgsec9_3.jpg",
+        msg:"I used to find crypto confusing. The step-by-step lessons from Clicks&Trades helped me understand the basics, and the journaling kept me organized. I’m excited for the upcoming platform to bring learning, community, and my notes together in one place.",
+        name:"Hans Derycke",
+        designation:" Truck driver, Geraardsbergen",
+    },
+]
