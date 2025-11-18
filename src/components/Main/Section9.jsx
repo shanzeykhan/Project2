@@ -37,14 +37,14 @@ const Section9 = ({ reviews }) => {
 
   return (
     <div>
-      <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2 relative mx-auto">
+      <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-3 relative mx-auto">
         <div className="w-full py-[46px] mx-auto">
           <h2 className="outfit-normal md:text-7xl text-black text-center text-5xl leading-10 md:leading-18 tracking-tighter">
             What Others Say
           </h2>
         </div>
 
-        <div className="my-[72px] max-md:min-h-[362px] h-[362px] max-w-[2343px] flex overflow-x-hidden">
+        <div className="my-[72px] max-md:min-h-[500px] h-[362px] max-w-[2343px] flex overflow-x-hidden ">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{
@@ -53,7 +53,7 @@ const Section9 = ({ reviews }) => {
           >
             {reviews.map((items, index) => (
               <div
-                className="bg-[#FAFAFA] rounded-[20px] h-full w-[754px] flex gap-7.5 p-[30px] relative flex-col lg:flex-row"
+                className="bg-[#FAFAFA] rounded-[20px]  max-md:min-h-[362px] h-full w-[754px] flex gap-7.5 p-[30px] relative flex-col lg:flex-row 2xl::mx-5"
                 key={index}
                 style={{
                   width: `${100 / reviews.length}%`,

@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 {/* Done all*** */}
 
 const Section10 = ({Faq}) => {
+
+ const [indexOpen, setindexOpen] = useState(null);
+ const handleToggle = (index)=>{
+  setindexOpen(indexOpen == index ? null : index)
+ }
+
+
   return (
     <div id="question">
       <div className="w-full lg:px-[156px] py-[100px] md:px-[100px] sm:px-10 px-2 mx-auto">
@@ -17,12 +24,17 @@ const Section10 = ({Faq}) => {
             <div className="flex items-center justify-between">
               <h3 className="outfit-normal text-xl leading-7 tracking-tight">{items.question}</h3>
               <div className="w-12 h-12 p-3 rounded-lg bg-white border border-[#EBEBEB]">
-                <img src="./arrow-up.png" alt="" className="" />
+                
+                <button onClick={()=>{
+                  handleToggle(index);
+                }}> {indexOpen == index ?<img src="./arrow-up.png" alt="arrow-up" className="" />:
+                <img src="./arrow-down.png" alt="arrow-down" className="" />}
+                </button>
               </div>
             </div>
-            <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-4">
+            {indexOpen == index && <p className="outfit-normal text-base leading-6 text-[#8C8C9A] mt-4">
               {items.answer}
-            </p>
+            </p>}
           </div>
   ))}
 

@@ -13,7 +13,7 @@ const Hero = () => {
             Planned features to be released in line with applicable licensing.
           </p>
           <div>
-            <button className="px-8 py-5 text-[#14DDB6] border-2 text-lg outfit-normal border-[#14ddb6] rounded-2xl bg-white hover:bg-[#14ddb6] hover:text-white cursor-pointer mx-2">
+            <button className="px-8 py-5 text-[#14DDB6] border-2 text-lg outfit-normal border-[#14ddb6] rounded-2xl bg-white hover:bg-[#14ddb6] hover:text-white cursor-pointer mx-2 max-md:mb-4">
               <a href="">Learn more</a>
             </button>
             <button className="px-8 py-5 text-[#14ddb6] border-2 text-lg outfit-normal border-[#14ddb6] rounded-2xl bg-white hover:bg-[#14ddb6] hover:text-white cursor-pointer mx-2">

@@ -6,8 +6,8 @@ const Section7 = ({Sec7}) => {
     <div id="detail">
 
       
-      <div className="w-full max-w-[1440px] lg:px-[156px] py-[187px] md:px-[100px] sm:px-10 px-2 mx-auto">
-        <h2 className="outfit-normal text-5xl md:text-7xl text-black text-center leading-10 md:leading-18 tracking-tighter">
+      <div className="w-full max-w-[1440px] lg:px-[156px] py-[187px] md:px-[100px] sm:px-10 px-4 mx-auto">
+        <h2 className="outfit-normal text-4xl md:text-7xl text-black text-center leading-10 md:leading-18 tracking-tighter">
           Why Clicks<span className="noto-sans-regular">&</span>
           Trades platform should be in your tool stack
         </h2>
