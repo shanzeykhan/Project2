@@ -4,8 +4,8 @@ const Header = ({header}) => {
   return (
     <div>
       <div className="w-full relative">
-        <img src="./Vector 19.png" alt="" className="absolute top-0 w-full min-h-[547px]" />
-        <img src="./Vector 18.png" alt="" className="absolute top-0 w-full min-h-[547px]" />
+        <img src="./Vector 19.png" alt="" className="absolute top-0 w-full min-h-[547px] blur-sm" />
+        <img src="./Vector 18.png" alt="" className="absolute top-0 w-full min-h-[547px] blur-sm" />
         <img src="./Framehero.png" alt="" className="md:px-13 w-full opacity-80 min-h-[547px]" />
         <div className="w-full md:px-13 px-2 md:py-5 py-2 border-b border-b-white/10 flex justify-between items-center absolute top-0 bg-white/5 overflow-hidden z-10">
           <img

@@ -1,7 +1,7 @@
 import React from "react";
-{/* Done all***  */}
 
-const Section8 = () => {
+
+const Section8 = ({data}) => {
   return (
     <div className="relative">
 
@@ -20,61 +20,17 @@ const Section8 = () => {
         </div>
 
         <div className="md:mt-100 mt-30 md:px-9 px-2 flex flex-wrap gap-6 items-center justify-center max-w-[1128px]">
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
+
+          {data.map((items, index)=>(<div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]" key={index}>
             <img
-              src="./image7.png"
+              src={items.imgUrl}
               alt=""
               className="w-42 h-[95px] m-auto my-1 max-md:w-[109px] max-md:h-[60px]"
             />
           </div>
+          ))}
 
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
-            <img
-              src="./image7_1.png"
-              alt=""
-              className="w-42 h-[95px] m-auto my-1 max-md:w-[109px] max-md:h-[60px]"
-            />
-          </div>
 
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
-            <img
-              src="./image7_2.png"
-              alt=""
-              className="w-42 h-[95px] m-auto my-1 max-md:w-[109px] max-md:h-[60px]"
-            />
-          </div>
-
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
-            <img
-              src="./image7_3.png"
-              alt="" 
-              className="w-42 h-[95px] m-auto my-1 max-md:w-[109px] max-md:h-[60px]"
-            />
-          </div>
-
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
-            <img
-              src="./image7_4.png"
-              alt=""
-              className="w-42 h-[95px] m-auto my-1 max-md:w-[109px] max-md:h-[60px]"
-            />
-          </div>
-
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
-            <img
-              src="./image7_5.png"
-              alt=""
-              className="w-42 h-[95px] m-auto my-1 max-md:w-[109px] max-md:h-[60px]"
-            />
-          </div>
-
-          <div className="bg-[#F5F6F933] rounded-2xl border border-[#7C39F633] w-[236px] h-[104px] max-md:w-[156px] max-md:h-[68px]">
-            <img
-              src="./image7_6.png"
-              alt=""
-              className="w-42 h-[95px] mx-auto my-1 max-md:w-[109px] max-md:h-[60px]"
-            />
-          </div>
         </div>
       </div>
     </div>

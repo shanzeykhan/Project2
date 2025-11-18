@@ -277,3 +277,26 @@ export const reviews = [
         designation:" Truck driver, Geraardsbergen",
     },
 ]
+export const sec8 = [
+    {
+        imgUrl:"./image7.png",
+    },
+    {
+        imgUrl:"./image7_1.png",
+    },
+    {
+        imgUrl:"./image7_2.png",
+    },
+    {
+        imgUrl:"./image7_3.png",
+    },
+    {
+        imgUrl:"./image7_4.png",
+    },
+    {
+        imgUrl:"./image7_5.png",
+    },
+    {
+        imgUrl:"./image7_6.png",
+    },
+]

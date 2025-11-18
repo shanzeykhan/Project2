@@ -89,7 +89,7 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1"
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1 px-3"
                   type="text"
                   id="fname"
                   required
@@ -113,7 +113,7 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1"
+                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1 px-3"
                   type="text"
                   name="lname"
                   id="lname"
@@ -138,7 +138,7 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1"
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1 px-3"
                   type="email"
                   name="email"
                   id="email"
@@ -163,7 +163,7 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1"
+                  className="bg-[#000000]/3 min-w-[271px] h-[46px] rounded-[7px] mt-[15px] w-full focus:outline-[#00D5BE] focus:outline-1 px-3"
                   type="number"
                   name="phone"
                   id="phone"
@@ -188,7 +188,7 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <input
-                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1"
+                  className="bg-[#000000]/3 min-w-[271px] w-full h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1 px-3"
                   type="city"
                   name="city"
                   id="city"
@@ -213,7 +213,7 @@ const Section11 = () => {
                 </label>
                 <br></br>
                 <textarea
-                  className="w-full bg-[#000000]/3 min-w-[271px] min-h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1"
+                  className="w-full bg-[#000000]/3 min-w-[271px] min-h-[46px] rounded-[7px] mt-[15px] focus:outline-[#00D5BE] focus:outline-1 px-3 py-2"
                   name="question"
                   id="question"
                   required

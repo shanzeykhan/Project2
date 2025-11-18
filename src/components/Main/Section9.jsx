@@ -33,7 +33,6 @@ const Section9 = ({ reviews }) => {
         : currentIndex + 1;
     });
     console.log(currentIndex);
-
   };
 
   return (
@@ -46,45 +45,47 @@ const Section9 = ({ reviews }) => {
         </div>
 
         <div className="my-[72px] max-md:min-h-[362px] h-[362px] max-w-[2343px] flex overflow-x-hidden">
-
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{
-              transform: `translateX(-${currentIndex * 100/itemsPerView}%)`,
+              transform: `translateX(-${(currentIndex * 100) / itemsPerView}%)`,
             }}
           >
-
-          {reviews.map((items, index) => (
-            <div
-              className="bg-[#FAFAFA] rounded-[20px] h-full w-[754px] flex gap-7.5 p-[30px] relative flex-col lg:flex-row"
-              key={index}
-              style={{
+            {reviews.map((items, index) => (
+              <div
+                className="bg-[#FAFAFA] rounded-[20px] h-full w-[754px] flex gap-7.5 p-[30px] relative flex-col lg:flex-row"
+                key={index}
+                style={{
                   width: `${100 / reviews.length}%`,
                   flex: `0 0 ${100 / itemsPerView}%`,
                 }}
-            >
-              <img
-                src="./Quotes.png"
-                alt=""
-                className="absolute top-5 right-5 max-md:right-35"
-              />
+              >
+                <img
+                  src="./Quotes.png"
+                  alt=""
+                  className="absolute top-5 right-5 max-md:right-35"
+                />
 
-              <img src={items.imgUrl} alt="" className="rounded-[10px] max-md:h-30 max-md:w-35" />
-              <div className="pt-5 max-md:max-w-70">
-                <p className="manrope-regular text-base leading-6 text-[#202020]">
-                  {items.msg}
-                </p>
-                <div className="mt-[18px]">
-                  <h3 className="manrope-semibold uppercase text-base text-[#202020]">
-                    {items.name}
-                  </h3>
-                  <p className="manrope-regular text-[14px] text-[#808080] mt-[5px]">
-                    {items.designation}
+                <img
+                  src={items.imgUrl}
+                  alt=""
+                  className="rounded-[10px] max-md:h-30 max-md:w-35"
+                />
+                <div className="pt-5 max-md:max-w-70">
+                  <p className="manrope-regular text-base leading-6 text-[#202020]">
+                    {items.msg}
                   </p>
+                  <div className="mt-[18px]">
+                    <h3 className="manrope-semibold uppercase text-base text-[#202020]">
+                      {items.name}
+                    </h3>
+                    <p className="manrope-regular text-[14px] text-[#808080] mt-[5px]">
+                      {items.designation}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
           </div>
         </div>
 
@@ -92,15 +93,11 @@ const Section9 = ({ reviews }) => {
           <img src="./Slider.png" alt="" className="mx-auto" />
         </div> */}
 
-        
         <div className="flex justify-center items-center gap-4  py-5 relative">
-          <button
-          onClick={prevSlide}
-          className=" rounded-full"
-        >
-          <img src="angleleft.svg" alt="leftscroll" className="h-9 w-9" />
-        </button>
-          {Array.from({ length: (reviews.length- itemsPerView) + 1}).map(
+          <button onClick={prevSlide} className=" rounded-full">
+            <img src="angleleft.svg" alt="leftscroll" className="h-9 w-9" />
+          </button>
+          {Array.from({ length: reviews.length - itemsPerView + 1 }).map(
             (_, index) => (
               <div
                 key={index}
@@ -112,13 +109,12 @@ const Section9 = ({ reviews }) => {
             )
           )}
           <button
-          onClick={nextSlide}
-          className="rounded-full z-10 hover:scale-110"
-        >
-          <img src="angleright.svg" alt="rightscroll" className="h-9 w-9" />
-        </button>
+            onClick={nextSlide}
+            className="rounded-full z-10 hover:scale-110"
+          >
+            <img src="angleright.svg" alt="rightscroll" className="h-9 w-9" />
+          </button>
         </div>
-        
       </div>
     </div>
   );

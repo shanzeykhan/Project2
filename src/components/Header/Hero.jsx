@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div >
-      <div className="w-full absolute top-0 mx-auto">
+      <div className="w-full absolute top-0 mx-auto px-4">
         <div className="md:max-w-220 text-center mt-[194px] 2xl:mt-[350px] 2xl:w-[50%] mx-auto">
           <h1 className="font-bold md:text-5xl text-3xl lora-bold md:mb-6 mb-3 md:leading-16 leading-9 mx-auto ">
             Clicks&Trades offers education, community, journaling, and general

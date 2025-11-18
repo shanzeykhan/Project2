@@ -27,6 +27,8 @@ const Section10 = ({Faq}) => {
   ))}
 
         </div>
+
+
       </div>
     </div>
   );

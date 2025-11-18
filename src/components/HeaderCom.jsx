@@ -6,7 +6,7 @@ import { header } from '../utils/constant'
 
 const HeaderCom = () => {
   return (
-    <div>
+    <div id='home'>
       <Header header={header}/>
       <Hero/>
       <Hero2/>

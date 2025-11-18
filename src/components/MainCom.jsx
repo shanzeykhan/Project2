@@ -9,7 +9,7 @@ import Section7 from './Main/Section7'
 import Section8 from './Main/Section8'
 import Section9 from './Main/Section9'
 import Section10 from './Main/Section10'
-import { Faq, Founder, reviews, Sec3, Sec4, Sec6, Sec7 } from '../utils/constant'
+import { Faq, Founder, reviews, Sec3, Sec4, Sec6, Sec7, sec8 } from '../utils/constant'
 import Section11 from './Main/Section11'
 import Section12 from './Main/Section12'
 
@@ -24,7 +24,7 @@ const MainCom = () => {
         <Section5/>
         <Section6 Sec6={Sec6}/>
         <Section7 Sec7={Sec7}/>
-        <Section8/>
+        <Section8 data = {sec8}/>
         <Section9 reviews={reviews}/>
         <Section10 Faq={Faq} />
         <Section11/>

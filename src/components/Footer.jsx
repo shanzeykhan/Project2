@@ -44,10 +44,10 @@ const Footer = () => {
                   Quick Menu
                 </h3>
                 <div className="mt-[22px] inter-regular text-[14px] leading-[21px] flex flex-col sm:gap-3.5 gap-1">
-                    <a href="" className="">Home</a>
-                    <a href="" className="">WHAT is Clicks & Trades?</a>
-                    <a href="" className="">FOR WHOM is Clicks & Trades?</a>
-                    <a href="" className="">$CANT Token of Clicks & Trades</a>
+                    <a href="#home" className="">Home</a>
+                    <a href="#Whatis" className="">WHAT is Clicks & Trades?</a>
+                    <a href="Whofor" className="">FOR WHOM is Clicks & Trades?</a>
+                    <a href="#detail" className="">$CANT Token of Clicks & Trades</a>
                 </div>
               </div>
 
